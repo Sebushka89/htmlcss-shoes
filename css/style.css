@@ -31,3 +31,29 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue;
 }
+
+/*menu fixed*/
+
+
+ul {
+    list-style: none;
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    right: 0px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+    font-style: "roboto";
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
